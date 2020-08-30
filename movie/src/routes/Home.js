@@ -21,7 +21,6 @@ class Home extends React.Component{
   };
   render() {
     const {isLoading, movies} = this.state;
-    console.log(movies);
     return (
     <section className="container">
       {isLoading ? (
