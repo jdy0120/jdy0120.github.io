@@ -9,7 +9,7 @@ function App() {
     return (
         <HashRouter>
             <Navigation />
-            <Route path="/react-movie" exact={true} component={Home}/>
+            <Route path="/" exact={true} component={Home}/>
             <Route path="/about" component={About}/>
         </HashRouter>
     );
